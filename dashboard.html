@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>🚗 Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+</nav>
+
+<input type="text" id="search" placeholder="Search cars..." onkeyup="searchCars()">
+
+<h1>Available Cars</h1>
+<div id="cars" class="car-container"></div>
+
+<h2>Your Bookings</h2>
+<div id="bookings"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
